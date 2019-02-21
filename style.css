@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.headWrap{
+    width: 100%;
+    background-color: blue;
+    height: 100px;
+    color: white;
+    margin: 0 0 10px 0;
+    padding: 10px;
+}
+
+.footer_wrap{
+    width:100%;
+    background-color: blue; 
+    color: white;
+    height: 100px;
+    margin: 10px 0 0;
+    padding: 10px;
+
+}
+.mid_wrapper{
+    display: flex;
+    height: 300px;
+    align-items: stretch;
+}
+.main_wrap{
+    background-color: blue; 
+    color: white;
+    margin:10px 10px 10px 0;
+    flex-grow: 3;
+    padding: 10px;
+}
+
+.nav_wrap{
+    background-color: blue; 
+    color: white;
+    margin:10px 0px 10px 10px;
+    padding: 10px;
+    flex-grow: 1;
+}
+
